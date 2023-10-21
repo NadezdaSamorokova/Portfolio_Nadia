@@ -1,1 +1,11 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
+@import url(./styles/page.css);
+
 @import url(./styles/header.css);
+
+.container {
+    max-width: 1184px;
+    margin: 0 auto;
+}
