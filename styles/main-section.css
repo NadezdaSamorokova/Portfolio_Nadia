@@ -1,0 +1,125 @@
+.main-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header {
+    background-image: url(../images/profile_picture.png);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 474px;
+}
+
+.header-description {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #FFFFFF;
+    padding: 320px 20px 0;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    margin: 8px 0;
+    padding: 0;
+}
+
+.header-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 25px 0 0;
+    justify-content: center;
+}
+
+.navigation-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-item {
+    margin: 0 60px 0 0;
+}
+
+.navigation-item:last-child {
+    margin: 0;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+    transition-timing-function: ease;
+}
+
+.link:hover {
+    opacity: .6;
+}
+
+.navigation-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    align-self: center;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 40px 0 0 40px;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+
+.about-text:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1084px) {
+    .about {
+        margin: 60px 60px 0;
+    }
+}

@@ -1,0 +1,62 @@
+.project-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.language {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 20px 20px 0 0;
+    align-self: end;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    margin: 20px 0 0;
+    align-self: center;
+}
+
+.project-cards {
+    column-gap: 15px;
+    display: grid;
+    /*grid-auto-rows: 220px;*/
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    margin: 30px 0 0;
+    padding: 0;
+    row-gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.image-link {
+    height: 100%;
+    min-height: 200px;
+    width: 100%;
+}
+
+.image-link:hover {
+    opacity: .8;
+}
+
+.card-image {
+    cursor: pointer;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-link {
+    margin: 8px 0 0;
+    align-self: center;
+}
