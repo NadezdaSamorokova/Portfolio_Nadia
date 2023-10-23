@@ -1,0 +1,32 @@
+.certificate-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.certificates {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.certificate {
+
+}
+
+.certificate-card {
+
+}
+
+.certificate-image {
+    width: 130px;
+    height: 94px;
+}
+
+.certificate-name {
+
+}
+
+.certificate-school {
+
+}

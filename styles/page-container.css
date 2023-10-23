@@ -1,11 +1,17 @@
 .page-container {
-    display: grid;
+   /* display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 15px;*/
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(640px, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
     gap: 15px;
 }
 
 @media (max-width: 1084px) {
     .page-container {
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
 }
