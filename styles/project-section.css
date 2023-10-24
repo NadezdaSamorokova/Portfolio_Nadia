@@ -13,13 +13,12 @@ h2 {
 }
 
 .project-cards {
-    column-gap: 15px;
     display: grid;
     /*grid-auto-rows: 220px;*/
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     margin: 30px 15px 0 0;
     padding: 0;
-    row-gap: 15px;
+    gap: 15px;
 }
 
 .card {
@@ -48,7 +47,12 @@ h2 {
     border-radius: 10px;
 }
 
+.image-petmypet {
+    object-position: left bottom;
+}
+
 .card-link {
     margin: 8px 0 0;
     align-self: center;
+    text-decoration: underline;
 }
