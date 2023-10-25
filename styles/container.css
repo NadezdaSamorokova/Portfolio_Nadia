@@ -9,3 +9,10 @@
         margin: 0 auto;
     }
 }
+
+@media (max-width: 885px) {
+    .container {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+    }
+}

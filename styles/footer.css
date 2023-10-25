@@ -38,3 +38,45 @@
         margin: 25px 0 25px 25px;
     }
 }
+
+@media (max-width: 885px) {
+    .contact-text {
+        font-size: 18px;
+    }
+
+    #email {
+        font-size: 16px;
+    }
+
+    .place {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 555px) {
+    .contact-text {
+        font-size: 16px;
+    }
+
+    #email {
+        font-size: 14px;
+    }
+
+    .place {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 380px) {
+    .contact-text {
+        font-size: 14px;
+    }
+
+    #email {
+        font-size: 12px;
+    }
+
+    .place {
+        font-size: 12px;
+    }
+}

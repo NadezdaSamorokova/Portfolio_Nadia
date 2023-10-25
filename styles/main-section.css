@@ -93,7 +93,7 @@ h1 {
 
 .navigation-link {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
     align-self: center;
     margin: 0 0 0 10px;
@@ -143,5 +143,101 @@ h1 {
 @media (max-width: 885px) {
     .navigation-item {
         margin: 0 60px 0 0;
+    }
+
+    .about-text {
+        font-size: 16px;
+    }
+
+    .navigation-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 555px) {
+    .header {
+        height: 450px;
+    }
+
+    .header-description {
+        padding-top: 300px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .header-text {
+        font-size: 15px;
+    }
+
+    .navigation-item {
+        margin-right: 30px;
+    }
+
+    .icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .navigation-link {
+        font-size: 12px;
+    }
+
+    .about {
+        margin: 40px 30px 0;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 380px) {
+    .header {
+        height: 300px;
+    }
+
+    .header-description {
+        padding-top: 200px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin: 6px 0;
+    }
+
+    .header-text {
+        font-size: 12px;
+    }
+
+    .navigation {
+        margin-top: 20px;
+    }
+
+    .navigation-item {
+        margin-right: 20px;
+    }
+
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .navigation-link {
+        font-size: 10px;
+        margin-left: 6px;
+    }
+
+    .about {
+        margin: 25px 20px 0;
+    }
+
+    .about-text {
+        font-size: 12px;
     }
 }
