@@ -139,3 +139,9 @@ h1 {
         font-size: 18px;
     }
 }
+
+@media (max-width: 885px) {
+    .navigation-item {
+        margin: 0 60px 0 0;
+    }
+}
