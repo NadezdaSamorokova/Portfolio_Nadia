@@ -14,11 +14,11 @@ h2 {
 
 .project-cards {
     display: grid;
-    /*grid-auto-rows: 220px;*/
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     margin: 30px 15px 0 0;
     padding: 0;
-    gap: 15px;
+    column-gap: 30px;
+    row-gap: 25px;
 }
 
 .card {
@@ -27,16 +27,11 @@ h2 {
     position: relative;
     box-sizing: border-box;
     justify-content: space-between;
-}
-
-.image-link {
-    height: 100%;
-    min-height: 200px;
-    width: 100%;
-}
-
-.image-link:hover {
-    opacity: .8;
+    align-items: center;
+    border: solid 1px #DCDCDC;
+    box-shadow: 3px 3px 10px #DCDCDC;
+    border-radius: 10px;
+    padding: 0 0 15px 0;
 }
 
 .card-image {
@@ -44,19 +39,27 @@ h2 {
     height: 100%;
     object-fit: cover;
     width: 100%;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .image-petmypet {
     object-position: left bottom;
 }
 
+h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
 .card-link {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1;
     margin: 8px 0 0;
-    align-self: center;
     text-decoration: underline;
 }
 
@@ -75,6 +78,10 @@ h2 {
 @media (max-width: 555px) {
     h2 {
         font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
     }
 }
 

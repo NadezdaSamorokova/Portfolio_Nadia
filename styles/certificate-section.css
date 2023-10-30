@@ -29,6 +29,10 @@
     cursor: pointer;
 }
 
+.certificate-image:hover {
+    opacity: .8;
+}
+
 .certificate-description {
     display: flex;
     flex-direction: column;
