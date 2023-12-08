@@ -2,22 +2,24 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    background-color: #262628;
 }
 
 h2 {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    margin: 20px 0 0;
+    margin: 40px 0 0;
     align-self: center;
+    color: #00A372;
 }
 
 .project-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    margin: 30px 15px 0 0;
+    margin: 30px 40px;
     padding: 0;
-    column-gap: 30px;
+    column-gap: 15px;
     row-gap: 25px;
 }
 
@@ -28,10 +30,6 @@ h2 {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    border: solid 1px #DCDCDC;
-    box-shadow: 3px 3px 10px #DCDCDC;
-    border-radius: 10px;
-    padding: 0 0 15px 0;
 }
 
 .card-image {
@@ -39,8 +37,7 @@ h2 {
     height: 100%;
     object-fit: cover;
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
 }
 
 .image-petmypet {

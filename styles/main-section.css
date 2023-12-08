@@ -2,55 +2,14 @@
     display: flex;
     flex-direction: column;
     position: relative;
-}
-
-.header {
-    background-image: url(../images/profile_picture.png);
-    background-position: 50% 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    height: 474px;
-}
-
-.header-description {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    color: #FFFFFF;
-    padding: 320px 20px 0;
-}
-
-h3 {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 1;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1;
-    margin: 8px 0;
-    padding: 0;
-}
-
-.header-text {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.2;
-    margin: 0;
-    padding: 0;
+    margin: 0 40px;
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
     position: relative;
-    margin: 25px 0 0;
-    justify-content: center;
+    margin: 40px 0 0;
 }
 
 .navigation-items {
@@ -63,7 +22,7 @@ h1 {
 }
 
 .navigation-item {
-    margin: 0 60px 0 0;
+    margin: 0 50px 0 0;
 }
 
 .navigation-item:last-child {
@@ -95,8 +54,40 @@ h1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
+    color: #00A372;
     align-self: center;
     margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 40px 0 0 0;
+}
+
+.profile-picture {
+    height: 149px;
+    width: 149px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.header-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #00A372;
+    margin: 0 40px 0 0;
     padding: 0;
 }
 
@@ -104,14 +95,14 @@ h1 {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 40px 0 0 40px;
+    margin: 40px 0 0;
 }
 
 .about-text {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
-    margin: 0 0 10px;
+    margin: 0 0 20px;
 }
 
 .about-text:last-child {
@@ -121,10 +112,6 @@ h1 {
 @media (max-width: 1084px) {
     .header {
         height: 600px;
-    }
-
-    .header-description {
-        padding: 460px 20px 0;
     }
 
     .navigation-item {
@@ -157,10 +144,6 @@ h1 {
 @media (max-width: 555px) {
     .header {
         height: 450px;
-    }
-
-    .header-description {
-        padding-top: 300px;
     }
 
     h1 {
@@ -196,14 +179,6 @@ h1 {
 @media (max-width: 380px) {
     .header {
         height: 300px;
-    }
-
-    .header-description {
-        padding-top: 200px;
-    }
-
-    h3 {
-        font-size: 18px;
     }
 
     h1 {

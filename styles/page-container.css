@@ -1,12 +1,6 @@
 .page-container {
-   /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;*/
-
     display: grid;
-    grid-template-columns: repeat(2, minmax(630px, max-content));
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
-    gap: 25px;
+    grid-template-columns: 1fr 1fr;
 }
 
 @media (max-width: 1084px) {
