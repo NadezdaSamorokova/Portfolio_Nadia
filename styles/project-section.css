@@ -16,11 +16,11 @@ h2 {
 
 .project-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     margin: 30px 40px;
     padding: 0;
-    column-gap: 15px;
-    row-gap: 25px;
+    column-gap: 20px;
+    row-gap: 35px;
 }
 
 .card {
@@ -29,11 +29,10 @@ h2 {
     position: relative;
     box-sizing: border-box;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 }
 
 .card-image {
-    cursor: pointer;
     height: 100%;
     object-fit: cover;
     width: 100%;
@@ -50,6 +49,21 @@ h4 {
     line-height: 1;
     padding: 0;
     margin: 10px 0 0;
+    color: #FFFFFF;
+}
+
+.project-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 8px 0 0;
+    color: #FFFFFF;
+    min-height: 28px;
+}
+
+.card-links {
+    color: #696969;
+    margin: 8px 0 0;
 }
 
 .card-link {
@@ -58,9 +72,10 @@ h4 {
     line-height: 1;
     margin: 8px 0 0;
     text-decoration: underline;
+    color: #00A372;
 }
 
-@media (max-width: 1084px) {
+@media (max-width: 1110px) {
     .project-cards {
         margin: 30px 0 0;
     }
