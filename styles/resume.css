@@ -3,6 +3,13 @@
     grid-template-columns: 2fr 1fr;
 }
 
+.resume-header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 50px 40px;
+}
+
 .experience-container {
     display: flex;
     flex-direction: column;
@@ -32,12 +39,20 @@
     margin-left: 20px;
 }
 
-.resume-header {
+.resume-contacts {
     display: flex;
     flex-direction: row;
     position: relative;
     justify-content: space-between;
     align-items: center;
+}
+
+.main .about {
+    margin: 0;
+}
+
+.about h1 {
+    margin: 0 0 20px 0;
 }
 
 .resume-contact {
@@ -151,7 +166,7 @@
     flex-direction: column;
     position: relative;
     background-color: #262628;
-    padding: 0 40px;
+    padding: 0 40px 80px;
 }
 
 .education {
@@ -300,4 +315,44 @@
     line-height: 1.2;
     color: #FFFFFF;
     margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .resume-header {
+        margin: 0 30px 40px;
+    }
+
+    .back-text {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+
+    .resume-contact {
+        padding-right: 50px;
+    }
+
+    .contact-detail {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .experience-container {
+        margin: 0 30px;
+    }
+
+    .about h1 {
+        font-size: 32px;
+    }
+
+    .summary {
+        font-size: 18px;
+    }
+
+    .education-container {
+        padding: 0 30px 80px;
+    }
+}
+
+@media (max-width: 800px) {
+
 }
