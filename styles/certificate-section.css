@@ -45,7 +45,7 @@
 .certificate-name {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.2;
     text-align: center;
     margin: 0 0 8px 0;
     padding: 0;
@@ -72,9 +72,10 @@
     padding: 0;
 }
 
-@media (max-width: 1084px) {
+@media (max-width: 1110px) {
     .certificate-section {
         padding: 0;
+        margin: 40px 0 80px 0;
     }
 
     .certificates {
@@ -94,10 +95,19 @@
     .certificates {
         grid-template-columns: repeat(2, 130px);
         grid-template-rows: repeat(2, 150px);
+        gap: 50px;
     }
 }
 
 @media (max-width: 380px) {
+    .certificate-section {
+        margin: 20px 0 60px 0;
+    }
+
+    .certificates {
+        gap: 30px;
+    }
+
     .certificate-name {
         font-size: 12px;
     }
