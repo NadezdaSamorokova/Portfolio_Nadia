@@ -36,7 +36,7 @@
     font-weight: 500;
     line-height: 1.2;
     color: #262628;
-    margin-left: 20px;
+    margin: 0 0 0 20px;
 }
 
 .resume-contacts {
@@ -354,5 +354,344 @@
 }
 
 @media (max-width: 800px) {
+    .resume-header {
+        margin: 0 20px 30px;
+    }
 
+    .back-link {
+        margin: 30px 0;
+    }
+
+    .back-icon {
+        width: 25px;
+    }
+
+    .back-text {
+        font-size: 20px;
+        margin: 0 0 0 12px;
+    }
+
+    .profile-picture {
+        height: 120px;
+        width: 120px;
+    }
+
+    .contact-detail {
+        font-size: 14px;
+        margin: 0 0 8px 0;
+    }
+
+    .experience-container {
+        margin: 0 20px;
+    }
+
+    .about h1 {
+        font-size: 28px;
+        margin: 0 0 14px 0;
+    }
+
+    .summary {
+        font-size: 14px;
+    }
+
+    .experience {
+        margin: 40px 0;
+    }
+
+    .experience .section-title {
+        font-size: 24px;
+    }
+
+    .experience-section {
+        margin: 20px 0 0;
+    }
+
+    .job-name {
+        font-size: 14px;
+        margin: 0 0 8px;
+    }
+
+    .job-title {
+        font-size: 14px;
+    }
+
+    .job-time {
+        font-size: 14px;
+    }
+
+    .job-description {
+        margin: 12px 0 0;
+        padding: 0 0 0 18px;
+    }
+
+    .job-task {
+        font-size: 14px;
+        margin: 0 0 8px;
+    }
+
+    .education-container {
+        padding: 0 15px 50px;
+    }
+
+    .education .section-title {
+        font-size: 24px;
+    }
+
+    .education-section {
+        margin-top: 20px;
+    }
+
+    .education-title {
+        font-size: 14px;
+        margin: 0 0 8px 0;
+    }
+
+    .education-place {
+        font-size: 14px;
+        margin: 0 0 8px 0;
+    }
+
+    .education-time {
+        font-size: 14px;
+    }
+
+    .skills {
+        margin: 25px 0 0;
+    }
+
+    .skills .section-title {
+        font-size: 24px;
+    }
+
+    .skills-section {
+        margin: 20px 0 0;
+    }
+
+    .skills-title {
+        font-size: 16px;
+    }
+
+    .skills-text {
+        font-size: 14px;
+        margin: 15px 0 0;
+    }
+
+    .languages {
+        margin: 25px 0 0;
+    }
+
+    .languages .section-title {
+        font-size: 24px;
+    }
+
+    .language-section:first-of-type {
+        margin: 20px 0 0;
+    }
+
+    .language {
+        font-size: 14px;
+    }
+
+    .language-level {
+        font-size: 14px;
+        margin: 0 0 8px 0;
+    }
+
+    .training {
+        margin: 25px 0 0;
+    }
+
+    .training .section-title {
+        font-size: 24px;
+    }
+
+    .training-section {
+        margin: 20px 0 0;
+    }
+
+    .training-title {
+        font-size: 14px;
+        margin: 0 0 8px 0;
+    }
+
+    .training-place {
+        font-size: 14px;
+        margin: 0 0 8px 0;
+    }
+
+    .training-time {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 650px) {
+    .resume-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .experience {
+        margin: 30px 0;
+    }
+
+    .education-container {
+        padding: 40px 15px 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .back-link {
+        margin: 20px 0;
+    }
+
+    .back-text {
+        font-size: 18px;
+        margin: 0 0 0 10px;
+    }
+
+    .resume-header {
+        margin: 0 20px 20px;
+    }
+
+    .profile-picture {
+        height: 100px;
+        width: 100px;
+    }
+
+    .resume-contact {
+        padding-right: 0;
+    }
+
+    .contact-detail {
+        font-size: 12px;
+    }
+
+    .about h1 {
+        font-size: 24px;
+    }
+
+    .summary {
+        font-size: 12px;
+    }
+
+    .experience {
+        margin: 20px 0;
+    }
+
+    .experience .section-title {
+        font-size: 18px;
+    }
+
+    .experience-section {
+        margin: 16px 0 0;
+    }
+
+    .job-title {
+        font-size: 12px;
+    }
+
+    .job-name {
+        font-size: 12px;
+    }
+
+    .job-place {
+        font-size: 12px;
+        margin: 0 0 6px;
+    }
+
+    .job-time {
+        font-size: 12px;
+    }
+
+    .job-task {
+        font-size: 12px;
+    }
+
+    .education-container {
+        padding: 30px 15px 50px;
+    }
+
+    .education .section-title {
+        font-size: 18px;
+    }
+
+    .education-section {
+        margin-top: 15px;
+    }
+
+    .education-title {
+        font-size: 12px;
+        margin: 0 0 6px 0;
+    }
+
+    .education-place {
+        font-size: 12px;
+        margin: 0 0 6px 0;
+    }
+
+    .education-time {
+        font-size: 12px;
+    }
+
+    .skills .section-title {
+        font-size: 18px;
+    }
+
+    .skills-title {
+        font-size: 14px;
+    }
+
+    .skills-text {
+        font-size: 12px;
+        margin: 12px 0 0;
+    }
+
+    .languages .section-title {
+        font-size: 18px;
+    }
+
+    .language-section:first-of-type {
+        margin: 15px 0 0;
+    }
+
+    .language {
+        font-size: 12px;
+    }
+
+    .language-level {
+        font-size: 12px;
+    }
+
+    .language-section {
+        margin: 12px 0 0;
+    }
+
+    .training .section-title {
+        font-size: 18px;
+    }
+
+    .training-section {
+        margin: 15px 0 0;
+    }
+
+    .training-title {
+        font-size: 12px;
+        margin: 0 0 6px 0;
+    }
+
+    .training-place {
+        font-size: 12px;
+        margin: 0 0 6px 0;
+    }
+
+    .training-time {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .profile-picture {
+        height: 80px;
+        width: 80px;
+    }
 }

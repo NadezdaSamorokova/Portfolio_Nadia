@@ -65,3 +65,12 @@
     line-height: 1;
     margin-top: 10px;
 }
+
+@media (max-width: 425px) {
+    .close-icon {
+        height: 20px;
+        right: 0;
+        top: -36px;
+        width: 20px;
+    }
+}
